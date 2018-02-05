@@ -1,0 +1,11 @@
+version: "2.0"
+
+services:
+ web:
+  image: pi/node-web-app
+  volumes:
+   - .:/opt/app
+  ports:
+   - "49160:8080"
+  restart:
+   always
