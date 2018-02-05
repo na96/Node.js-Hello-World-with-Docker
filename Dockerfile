@@ -12,7 +12,6 @@ RUN npm install npm@latest -g
 #copied where available
 COPY package.json package-lock.json* ./
 
-RUN npm install
 RUN npm i -g pm2
 
 #Bundle app source
