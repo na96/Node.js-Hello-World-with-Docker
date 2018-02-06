@@ -1,7 +1,7 @@
 {
  "name": "docker_web_app",
  "version": "1.0.0",
- "description": "Node.js Hello",
+ "description": "Node.js Hello on Docker",
  "author": "nadine",
  "main": "server.js",
  "scripts": {
