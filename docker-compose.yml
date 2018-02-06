@@ -7,3 +7,5 @@ services:
    - .:/opt/app
   ports:
    - "49160:8080"
+  restart:
+   always 
