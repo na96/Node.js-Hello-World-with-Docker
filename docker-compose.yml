@@ -2,7 +2,7 @@ version: "2.0"
 
 services:
  web:
-  image: pi/node-web-app
+  image: pi/node-app
   volumes:
    - .:/opt/app
   ports:
