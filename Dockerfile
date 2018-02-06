@@ -5,7 +5,7 @@ RUN mkdir -p /opt/app
 #Create app directory
 WORKDIR /opt/app
 
-RUN npm install npm@latest -g
+RUN npm install
 
 #Install app dependencies
 #A wildcard is used to ensure both package.json and package-lock.json are
